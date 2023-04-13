@@ -1,0 +1,20 @@
+{
+    "name": "elabftw/secret-key-generator",
+    "description": "Generate a SECRET_KEY for eLabFTW usage",
+    "type": "project",
+    "require": {
+        "defuse/php-encryption": "^2.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Elabftw\\SecretKeyGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nicolas CARPi",
+            "email": "nico-git@deltablot.email"
+        }
+    ]
+}
