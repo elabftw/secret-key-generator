@@ -17,3 +17,9 @@ cd secret-key-generator
 composer install
 php generate.php
 ~~~
+
+### Decrypt
+
+~~~bash
+php decrypt $KEY $CIPHERTEXT
+~~~
