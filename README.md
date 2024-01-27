@@ -7,7 +7,7 @@ Standalone repository to generate a secret key suitable for the `SECRET_KEY` con
 Note: it is recommended to use one of these two other approaches:
 
 1. `curl "https://get.elabftw.net?key"`
-2. `docker run --rm -t --entrypoint '/bin/sh' elabftw/elabimg -c "php -d memory_limit=10M -d open_basedir='' bin/console tools:genkey"`
+2. `docker run --rm -t --entrypoint '/bin/sh' elabftw/elabimg -c "php -d memory_limit=10M -d open_basedir='' bin/init tools:genkey"`
 
 ## Usage
 
